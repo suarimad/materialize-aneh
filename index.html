@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+           
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aneh Production</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar-fixed">
+        <nav class="grey darken-2">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">
+                        <img src="ico.jpeg" alt="">
+                    </a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">About Us</a></li>
+                    <li><a href="sass.html">Events</a></li>
+                    <li><a href="badges.html">Talents</a></li>
+                    <li><a href="badges.html">Podcast</a></li><li><a href="badges.html">Store</a></li>
+                    <li><a href="badges.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </div>
+    
+    <!-- endNavbar  -->
+
+    <!-- sideNav -->
+
+    <ul class="sidenav" id="mobile-nav">
+            <li><a href="sass.html">About Us</a></li>
+            <li><a href="sass.html">Events</a></li>
+            <li><a href="badges.html">Talents</a></li>
+            <li><a href="badges.html">Podcast</a></li><li><a href="badges.html">Store</a></li>
+            <li><a href="badges.html">Contact Us</a></li>
+    </ul>
+
+    <!-- endSideNav -->
+
+    <!-- slider -->
+
+    <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="banner1.jpg">
+                <div class="caption left-align">
+                  <h3>Tekken7 Tournament!</h3>
+                  <h5 class="light grey-text text-lighten-3">Tekken Tournament Event.</h5>
+                </div>
+                </li>
+                <li>
+                    <img src="banner2.jpg">
+                    <div class="caption right-align">
+                      <h3>Aneh Podcast</h3>
+                      <h5 class="light grey-text text-lighten-3">Listen to our Podcast.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="banner3.jpg">
+                      <div class="caption left-align">
+                      <h3>Aneh Podcast</h3>
+                      <h5 class="light grey-text text-lighten-3">Listen to our Podcast.</h5>
+                    </div>
+                </li>
+            </ul>
+            
+    </div>
+
+    <!-- endSlider -->
+
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+          const sideNav = document.querySelectorAll('.sidenav');
+          M.Sidenav.init(sideNav);
+
+          const slider = document.querySelectorAll('.slider');
+          M.Slider.init(slider);
+      </script>     
+</body>
+</html>
